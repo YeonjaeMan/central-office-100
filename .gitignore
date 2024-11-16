@@ -1,0 +1,89 @@
+HELP.md
+
+### Gradle ###
+.gradle/
+build/
+*.gradle
+gradlew
+gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.settings/
+.classpath
+.project
+bin/
+target/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### java ###
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.log
+*.log.*
+*.h2.db
+
+### Spring Boot ###
+spring.log
+
+### OS-specific files ###
+.DS_Store
+Thumbs.db
+
+### Log files ###
+*.log
+
+### IDE specific files ###
+*.swp
+*.swo
+*.tmp
+*.bak
+
+### Lombok ###
+*.lombok
+
+### Environment variables ###
+.env
+*.properties
+
+### 기타 ###
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tgz
